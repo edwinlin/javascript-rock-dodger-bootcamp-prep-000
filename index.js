@@ -161,7 +161,7 @@ function moveDodgerLeft() {
 
    window.requestAnimationFrame(function(){
      const left = positionToInteger(DODGER.style.left)
-          console.log(`this is left: ${lrft}`)
+          console.log(`this is left: ${left}`)
 
      if(left > 0){
        DODGER.style.left = `${left - 4}px`
