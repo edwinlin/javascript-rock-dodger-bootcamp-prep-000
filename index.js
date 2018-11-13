@@ -30,7 +30,7 @@ function checkCollision(rock) {
     const dodgerRightEdge = positionToInteger(DODGER.style.right)
 console.log('hi' + DODGER.style.right)
     // FIXME: The DODGER is 40 pixels wide -- how do we get the right edge?
-    const dodgerRightEdge = dodgerLeftEdge + 40;
+    // const dodgerRightEdge = dodgerLeftEdge + 40;
 
     const rockLeftEdge = positionToInteger(rock.style.left)
 
